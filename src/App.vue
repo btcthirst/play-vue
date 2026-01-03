@@ -1,16 +1,17 @@
 <script setup lang="ts">
-import Default from './components/Default.vue';
-
-
+import ExcelProcessor from './components/ExcelProcessor.vue'
 </script>
 
 <template>
-  <div class="test">
-    <Default/>
-  </div>
-  
+  <ExcelProcessor />
 </template>
 
-<style scoped>
-
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>
