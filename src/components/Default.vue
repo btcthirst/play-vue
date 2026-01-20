@@ -18,7 +18,7 @@
         multiple: false,
     })
 
-    onChange((files) =>{
+    onChange((files: FileList | null) =>{
         if (!files || files.length === 0) return
         const file: File | null = files.item(0)
         if (!file) return
